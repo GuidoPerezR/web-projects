@@ -1,0 +1,19 @@
+---
+import ProjectCard from "../components/ProjectCard.astro";
+import SectionTitle from "../components/SectionTitle.astro";
+import { PROJECTS } from "../consts/Projects";
+---
+
+<!-- Bento Grid Projects Section -->
+<section id="projects" class="py-24 bg-dark-bg relative">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <SectionTitle
+      title="Proyectos Destacados"
+      subtitle="Una selección de mis trabajos más recientes"
+    />
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 ">
+      {PROJECTS.map((project) => <ProjectCard {...project} />)}
+    </div>
+  </div>
+</section>

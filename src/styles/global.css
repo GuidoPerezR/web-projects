@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "@fontsource/inter";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --color-primary: #8b5cf6; /* Violet-500 */
+  --color-primary-hover: #7c3aed; /* Violet-600 */
+  --color-dark-bg: #0a0a0a;
+  --color-card-bg: #171717;
+}
+
+html,
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-dark-bg);
+  color: #ffffff;
+  scroll-behavior: smooth;
+}
