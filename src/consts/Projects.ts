@@ -6,7 +6,7 @@ export const PROJECTS = [
     image: '/images/nahual-studio.webp',
     tags: ['Diseño visual', 'Landing page', 'Identidad de marca'],
     link: 'https://nahual-studio.vercel.app/',
-    span: 'md:col-span-2 md:row-span-2', // Featured item
+    span: 'md:col-span-2', // Featured item
   },
   {
     title: 'Iron Core - Gimnasio',
